@@ -42,10 +42,48 @@ public class Flowcharts {
 			}
 		}
 	}
+	
+	public static void flowchart3() {
+		int A = 100;
+		while (A <= 200) {
+			System.out.println(A);
+			A++;
+		}
+	}
+	
+	public static void flowchart4() {
+		for (int A = 100; A <= 200; A++) {
+			if (A % 2 == 0) {
+				System.out.println("_");
+			} else {
+				System.out.println("*");
+			}
+		}
+	}
+	
+	public static void flowchart5() {
+		for (int i = 1; i <=10; i++) {
+			for (int j = 0; j < 10; j++) {
+				System.out.println(i);
+			}
+		}
+	}
+	
+	public static void flowchart6() {
+		for (int i = 1; i <= 10; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.println(i);
+			}
+		}
+	}
 
 	public static void main(String[] args) {
-		flowchart1(4, 5, true);
-		flowchart2(943);
+//		flowchart1(4, 5, true);
+//		flowchart2(943);
+//		flowchart3();
+//		flowchart4();
+//		flowchart5();
+		flowchart6();
 	}
 
 }
