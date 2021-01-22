@@ -1,6 +1,6 @@
 package com.qa.academy.javaproject;
 
-public class Results {
+public class ExamResults {
 
 	public static int Physics = 100;
 	public static int Chemistry = 100;

@@ -1,6 +1,9 @@
 package com.qa.academy.javaproject;
 
 public class Taxes {
+	// Tax calculations are threshold based and the tax percentage is not directly
+	// applied to the final salary, so the exercise doesn't make much sense but
+	// here it goes.
 
 	// Returns the final percentage of tax after thresholds for the given salary.
 	// Not pretty but just following instructions.
